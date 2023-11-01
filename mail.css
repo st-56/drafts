@@ -93,8 +93,8 @@ html{
 .main-box{
     width: 40%;
     height: 600px;
-    margin-top: 15px;
-    margin-right: 50px;
+    margin-top: 30px;
+    margin-right: 80px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -103,13 +103,10 @@ html{
 
 .box1{
     margin-top: 40px;
-    width: 80%;
-    height: 50px;
     display: flex;
-    justify-content: center;
     background-color: white;
 }
-.monster{
+#monster{
     margin-left: 6px;
     color: black;
     font-family: 'Playpen Sans', cursive;
@@ -120,14 +117,11 @@ html{
 
 .box2{
     margin-top: 25px;
-    width: 80%;
-    height: 50px;
     display: flex;
-    justify-content: center;
     background-color: white;
 }
-.place{
-    margin: 0;
+#place{
+    margin-left: 6px;
     color: black;
     font-family: 'Playpen Sans', cursive;
     font-weight: 700px;
@@ -141,7 +135,7 @@ html{
     width: 100px;
     height: 45px;
     background-color: purple;
-    float: left;
+    display: flex;
 }
 .photo{
     width: 100px;
@@ -161,19 +155,16 @@ html{
 
 .box3{
     margin-top: 11px;
-    width: 80%;
-    height: 250px;
     display: flex;
-    justify-content: center;
     background-color: white;
+    height: 200px;
 }
-.response{
-    margin: 0;
+#response{
+    margin-left: 6px;
     color: black;
     font-family: 'Playpen Sans', cursive;
     font-weight: 700px;
     display: flex;
-    align-items: center;
 }
 
 .button2{
@@ -186,6 +177,7 @@ html{
     width: 80px;
     height: 40px;
     margin: 0;
+    background-color: purple;
     color: white;
     font-family: 'Playpen Sans', cursive;
     font-weight: 700px;
