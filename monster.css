@@ -1,0 +1,184 @@
+html{
+    background-color: black;
+}
+
+.logo{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.name{
+    color: white;
+    font-family: 'Playpen Sans', cursive;
+    font-weight: 700px;
+}
+
+.line{
+    border: 2px solid orange;
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.list{
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.item{
+    font-family: 'Playpen Sans', cursive;
+    font-weight: 700px;
+    list-style: none;
+    padding-left: 30px;
+    margin-bottom: 0px;
+}
+
+.item-link{
+    text-decoration: none;
+    border: 3px solid orange;
+    margin-bottom: 0px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    display: block;
+    border-bottom: none;
+}
+.item-link:hover{
+    background-color: orange;
+}
+
+.main{
+    display: flex;
+}
+
+.sidebar{
+    background-color: gray;
+    width: 20%;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    height: 800px;
+}
+
+.steal{
+    list-style: decimal;
+    color: white;
+    font-family: 'Playpen Sans', cursive;
+    font-weight: 400px;
+}
+
+.allpic{
+    width: 80%;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 30px;
+}
+
+.pics1{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.zone1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.zone2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.zone3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pics2{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 30px;
+}
+
+.zone4{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.zone5{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.zone6{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: orange;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot{
+    margin-left: 50px;
+}
+
+.contact{
+    font-family: 'Playpen Sans', cursive;
+    font-weight: 700;
+    color: black;
+}
+
+.email{
+    font-family: 'Playpen Sans', cursive;
+    font-weight: 400;
+    color: black;
+}
+
+.phone{
+    font-family: 'Playpen Sans', cursive;
+    font-weight: 400;
+    color: black;
+}
+
+.copyright{
+    margin-top: 40px;
+    margin-right: 50px;
+}
+
+.copy{
+    font-family: 'Playpen Sans', cursive;
+    font-weight: 400;
+    color: black;
+}
