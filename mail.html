@@ -45,29 +45,42 @@
     </div>
     <div class="mid">
         <div class="main-box">
-            <div class="box1">
-                <p class="monster">發現的怪獸:</p>
-            </div>
-            <div class="box2">
-                <p class="place">發現地點:</p>
-            </div>
-            <div class="button1">
-                <a href="#" class="photo">照片上傳</a>
-            </div>
-            <div class="box3">
-                <p class="response">更多回覆:</p>
-            </div>
-            <div class="button2">
-                <a href="#" class="submit">提交</a>
-            </div>
+            <form>
+                <div class="box1">
+                    <label for="monster">發現的怪獸:</label>
+                    <input id="monster" type="text" name="monster">
+                </div>
+                
+                <div class="box2">
+                    <label for="place">發現的地點:</label>
+                    <input id="place" type="text" name="place">
+                </div>
+                <div class="button1">
+                    <a href="#" class="photo">照片上傳</a>
+                </div>
+                <div class="box3">
+                    <label for="response">更多回覆:</label>
+                    <textarea id="response" name="response"></textarea>
+                </div>
+                <div class="button2">
+                    <input class="submit" type="submit" value="提交">
+                </div>
+            </form>
         </div>
         <div class="qa">
             <div class="sidebar">
+                <div class="qs">
+                    <p>
+                        常見疑問Q&A
+                    </p>
+                </div>
                 <div class="q1">
                     <p>
                         Q1:發現怪獸在攻擊人該怎麼辦?<br>
                         A1:紀錄時間、地點，拍下證據照片，<br>
-                        上傳到網站給我們處理!
+                        上傳到網站讓我們處理!<br>
+                        千萬不要上前逞能制止，<br>
+                        以免增加傷亡人數。
                     </p>
                 </div>
                 <div class="q2">
@@ -82,7 +95,14 @@
                     <p>
                         Q3:我可以加入怪獸追緝局嗎?<br>
                         A3:可以!我們會不定期招募新成員，<br>
-                        期待日後與您並肩作戰!<br>
+                        還請注意我們的最新消息，<br>
+                        期待日後與您並肩作戰!
+                    </p>
+                </div>
+                <div class="q4">
+                    <p>
+                        若有更多疑問，歡迎致電，<br>
+                        或用電子信箱與我們聯絡!
                     </p>
                 </div>
             </div>
