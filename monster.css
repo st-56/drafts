@@ -163,6 +163,26 @@ header{
     padding-top: 10px;
 }
 
+.way{
+    list-style: decimal;
+    color: white;
+    font-family: gensenrounded;
+    font-weight: 700px;
+    font-size: 1.5em;
+}
+
+.get{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.num{
+    margin-left: 50px;
+    padding-top: 10px;
+}
+
 .ex{
     font-family: gensenrounded;
     font-weight: 700px;
@@ -173,7 +193,8 @@ header{
     flex-direction: column;
     padding-left: 40px;
     padding-right: 30px;
-    padding-top: 40px;
+    padding-top: 100px;
+    margin-bottom: 40px;
 }
 
 .allpic{
