@@ -134,6 +134,7 @@ header{
     margin-top: 30px;
     margin-left: 50px;
     margin-right: 30px;
+
 }
 
 .pics1{
@@ -149,7 +150,11 @@ header{
     align-items: center;
 }
 
-.expl1 {
+.mon{
+    color: white;
+}
+
+.expl {
     display: none;
     position: fixed;
     top: 0;
@@ -159,11 +164,11 @@ header{
     background-color: rgba(0,0,0,0.7);
 }
 
-#openexpl1{
+#openexpl{
     color: black;
 }
   
-.sent1 {
+.sent {
     background-color: #fff;
     width: 50%;
     max-width: 600px;
@@ -199,7 +204,7 @@ header{
 .pics2{
     display: flex;
     justify-content: space-between;
-    color: white;
+    /*color: white;*/
     margin-top: 30px;
 }
 
@@ -227,7 +232,7 @@ header{
 .pics3{
     display: flex;
     justify-content: space-between;
-    color: white;
+    /*color: white;*/
 }
 
 .zone7{
@@ -254,7 +259,7 @@ header{
 .pics4{
     display: flex;
     justify-content: space-between;
-    color: white;
+    /*color: white;*/
 }
 
 .zone10{
