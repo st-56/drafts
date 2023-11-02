@@ -119,13 +119,61 @@ header{
     margin-left: 30px;
     margin-bottom: 30px;
     display: flex;
+    flex-direction: column;
+    color: white;
 }
 
 .steal{
     list-style: decimal;
     color: white;
-    font-family: 'Playpen Sans', cursive;
-    font-weight: 400px;
+    font-family: gensenrounded;
+    font-weight: 700px;
+    font-size: 1.5em;
+}
+
+.rank{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.num{
+    margin-left: 50px;
+    padding-top: 10px;
+}
+
+.punish{
+    list-style: lower-alpha;
+    color: white;
+    font-family: gensenrounded;
+    font-weight: 700px;
+    font-size: 1.5em;
+}
+
+.money{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.num{
+    margin-left: 50px;
+    padding-top: 10px;
+}
+
+.ex{
+    font-family: gensenrounded;
+    font-weight: 700px;
+    font-size: 1em;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-right: 30px;
+    padding-top: 40px;
 }
 
 .allpic{
