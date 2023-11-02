@@ -1,202 +1,104 @@
-/*font*/
-@font-face {
-    font-family: jf;
-    src: url(../font/jf-openhuninn-2.0.ttf);
-}
-@font-face {
-    font-family:gensenrounded ;
-    src: url(../font/GenSenRounded-R.ttc);
-}
-/*body*/
-body{
-    background-color: black;
-    text-align: center;
-}
-
-
-/*header*/
-header{
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    border-bottom:2px solid #FFB800;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.logo{
-    width:150px;
-}
-.nav{
-    margin-top: 30px;
-    display: flex;
-    flex-wrap: wrap;
-}
-.nav_item{ 
-    font-size: 20px;
-    font-family: gensenrounded;
-    margin-right: 60px;
-    list-style:none;
-    color: #FFB800;
-    padding: 5px 10px;
-    text-decoration: none;
-}
-.nav_item:hover{
-    background-color: #FFB800;
-    color: black;
-}
-/*main*/
-main{
-    margin-bottom: 40px;
-}
-.title{
-    font-family: jf;
-    font-size: 20px;
-    width: 100px;
-    color: #FFB800;
-    border-left:1.5px solid #0FF;;
-    border-right:1.5px solid #0FF;;
-    text-align: center;
-    margin:0 auto 25px auto;
-}
-hr{
-    border-color: #FFB800;
-    width: 50%;
-}
-.news{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 30px;
-}
-
-.image-container {
-    border: 2px solid white;
-    border-radius: 20px;
-    width: 70%;
-    height: 500px;
-    position: relative;
-    overflow: hidden;
-  }
-
-  .image-slider {
-    display: flex;
-    
-  }
-
-  .image {
-    width: 100%;
-    height: 500px;
-    opacity: 0; /* 初始不可见 */
-    position: absolute;
-  }
-
-  .image img {
-    width: 100%;
-    height: 100%;
-  }
-
- .image:nth-child(1) {
-    animation: fade 6s 0s infinite;
-  }
-
-  .image:nth-child(2) {
-    animation: fade 6s 2s infinite;
-  }
-
-  .image:nth-child(3) {
-    animation: fade 6s 4s infinite;
-  }
-
-  @keyframes fade {
-    0%, 100% {
-      opacity: 0;
-    }
-    50% {
-      opacity: 1;
-    }
-  }
-
-.preview{
-    margin-top: 25px;
-}
-.recent,.highreward{
-    padding: 20px 15%;
-    margin-bottom: 40px;
-    font-family: gensenrounded ;
-    font-size: 20px;
-    color:white;
-    background-color:rgba(255, 255, 255, 0.5);
-    border-bottom: 2px solid white;
-    border-top: 2px solid white;
-}
-.monsters{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-.monsters_item{
-    width: 180px;
-    font-family: gensenrounded;
-    color: white;
-}
-.monspic{
-    width: 180px;
-    border-radius: 10px;
-}
-.monsname{
-    text-align: center;
-    margin-top: 8px;
-}
-.dots{
-    align-self:self-end;
-    text-decoration: none;
-    color: white;
-}
-.more{
-    text-align: center;
-    line-height: 200%;
-}
-.knowmore{
-    margin:0;
-    font-family: gensenrounded;
-    color:#0FF;
-    font-size: 20px;
-}
-.monsterdoc{
-    font-family: gensenrounded;
-    color:#0FF;
-    font-size: 20px;
-    text-decoration: none;
-}
-.doudledown{
-    width:25px;
-}
-/*footer*/
-footer{
-    background-color: #FFB800;
-    display: flex;
-    justify-content: space-between;
-    padding: 24px 52px;
-}
-.contact{
-
-}
-.icon{
-    width: 37px;
-    margin-right: 15px;
-    margin-bottom: 5px;
-}
-.mail{
-    color:black;
-    font-family: gensenrounded;
-    margin:0;
-}
-.cr{
-    color:black;
-    font-family: gensenrounded;
-    margin:0;
-    align-self: center;
-}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Moster Pursuit</title>
+        <link rel="stylesheet" href="css/home.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        
+    <body>
+        <!--header-->
+        <header>
+            <img src="img/logo.png" alt="logo" class="logo">
+            <ul class="nav">
+                <li><a href="home.html" class="nav_item">首頁</a></li>
+                <li><a href="about.html" class="nav_item">關於</a></li>
+                <li><a href="monster.html" class="nav_item">怪獸檔案</a></li>
+                <li><a href="mail.html" class="nav_item">通報</a></li>
+            </ul>
+        </header>
+        <!--main-->
+        <main>
+            <div class="news">
+                <p class="title">最新消息</p>
+                <div class="image-container">
+                    <div class="image-slider">
+                      <div class="image">
+                        <img src="img/recuit.jpg" alt="Image 1">
+                      </div>
+                      <div class="image">
+                        <img src="img/rain.jpg" alt="Image 2">
+                      </div>
+                      <div class="image">
+                        <img src="img/sad.jpg" alt="Image 3">
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <hr>
+            <div class="preview">
+                <p class="title">怪獸預覽</p>
+                <div class="recent">
+                    <p>近期出沒</p>
+                    <div class="monsters">
+                         <div class="monsters_item">
+                            <img src="img/dirty.jpg" alt="monster" class="monspic">
+                            <p class="monsname">邋遢怪</p>
+                         </div>
+                        <div class="monsters_item">
+                             <img src="img/emo.jpg" alt="monster" class="monspic">
+                             <p class="monsname">憂鬱怪</p>
+                        </div>
+                         <div class="monsters_item">
+                              <img src="img/sleep.jpg" alt="monster" class="monspic">
+                               <p class="monsname">躺平怪</p>
+                        </div>
+                        <div class="monsters_item">
+                            <img src="img/brain.jpg" alt="monster" class="monspic">
+                             <p class="monsname">盜腦怪</p>
+                        </div>
+                        <a href="monster.html" class="dots"><p >. . .</p></a>
+                    </div>
+                </div>
+                <div class="highreward">
+                    <p>高額懸賞</p>
+                    <div class="monsters">
+                        <div class="monsters_item">
+                            <img src="img/hide.jpg" alt="monster" class="monspic">
+                            <p class="monsname">偷窺怪</p>
+                        </div>
+                        <div class="monsters_item">
+                            <img src="img/umbrella.jpg" alt="monster" class="monspic">
+                            <p class="monsname">偷傘怪</p>
+                        </div>
+                        <div class="monsters_item">
+                            <img src="img/emo.jpg" alt="monster" class="monspic">
+                            <p class="monsname">憂鬱怪</p>
+                        </div>
+                        <div class="monsters_item">
+                            <img src="img/eat.jpg" alt="monster" class="monspic">
+                            <p class="monsname">偷吃怪</p>
+                        </div>
+                        <a href="monster.html" class="dots"><p >. . .</p></a>
+                    </div>
+                </div>
+                <div class="more">
+                    <p class="knowmore">想了解更多怪獸?<br/>進入</p>
+                    <img src="img/doubledown_.svg" alt="doubledown" class="doubledown">
+                    <br/>
+                    <a class="monsterdoc" href="monster.html">怪獸檔案</a>
+                </div>
+            </div>
+        </main>
+        <!--footer-->
+        <footer>
+            <div class="contact">
+                <a href="https://www.facebook.com/"><img src="img/fb.png" alt="fb" class="icon"></a>
+                <a href="https://www.instagram.com/"><img src="img/ig.png" alt="ig" class="icon"></a>
+                <a href="https://twitter.com/home"><img src="img/x.png" alt="x" class="icon"></a>
+                <p class="mail">mail:monsterpursuit@gmail.com</p>
+            </div>
+            <p class="cr">copyright &copy; 2023 monsterpursuit</p>
+        </footer>
+    </body>
+</html>
