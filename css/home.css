@@ -1,0 +1,147 @@
+/*font*/
+@font-face {
+    font-family: jf;
+    src: url(../font/jf-openhuninn-2.0.ttf);
+}
+@font-face {
+    font-family:gensenrounded ;
+    src: url(../font/GenSenRounded-R.ttc);
+}
+/*body*/
+body{
+    background-color: black;
+}
+/*header*/
+header{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-bottom:2px solid #FFB800;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo{
+    width:150px;
+}
+.nav{
+    margin-top: 25px;
+    display: flex;
+}
+.nav_item{ 
+    font-size: 20px;
+    font-family: gensenrounded;
+    margin-right: 60px;
+    list-style:none;
+    color: #FFB800;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+.nav_item:hover{
+    background-color: #FFB800;
+    color: black;
+}
+/*main*/
+main{
+    margin-bottom: 40px;
+}
+.title{
+    font-family: gensenrounded;
+    font-size: 20px;
+    width: 100px;
+    color: #FFB800;
+    border-left:1.5px solid #0FF;;
+    border-right:1.5px solid #0FF;;
+    text-align: center;
+    margin:0 auto 25px auto;
+}
+hr{
+    border-color: #FFB800;
+    width: 50%;
+}
+.news{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.carousel{
+    width: 80%;
+    border: 2px solid white;
+    border-radius: 40px;
+}
+.preview{
+    margin-top: 25px;
+}
+.recent,.highreward{
+    padding: 20px 15%;
+    margin-bottom: 40px;
+    font-family: gensenrounded ;
+    font-size: 20px;
+    color:white;
+    background-color:rgba(255, 255, 255, 0.5);
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+}
+.monsters{
+    display: flex;
+    justify-content: space-around;
+}
+.monsters_item{
+    width: 180px;
+    font-family: gensenrounded;
+    color: white;
+}
+.monspic{
+    width: 180px;
+}
+.monsname{
+    text-align: center;
+    margin-top: 8px;
+}
+.dots{
+    align-self:self-end;
+}
+.more{
+    text-align: center;
+    line-height: 200%;
+}
+.knowmore{
+    margin:0;
+    font-family: gensenrounded;
+    color:#0FF;
+    font-size: 20px;
+}
+.monsterdoc{
+    font-family: gensenrounded;
+    color:#0FF;
+    font-size: 20px;
+    text-decoration: none;
+}
+/*footer*/
+footer{
+    background-color: #FFB800;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 52px;
+}
+.contact{
+
+}
+.icon{
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+.mail{
+    color:black;
+    font-family: gensenrounded;
+    margin:0;
+}
+.cr{
+    color:black;
+    font-family: gensenrounded;
+    margin:0;
+    align-self: center;
+}
