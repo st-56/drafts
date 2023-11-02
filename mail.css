@@ -2,6 +2,47 @@ html{
     background-color: black;
 }
 
+hr{
+    border-color: #FFB800;
+    width: 50%;
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+/*header*/
+header{
+    width: 90%;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-bottom:2px solid #FFB800;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width:175px;
+}
+.nav{
+    display: flex;
+}
+.nav_item{ 
+    font-size: 20px;
+    font-family: gensenrounded;
+    margin-right: 60px;
+    list-style:none;
+    color: #FFB800;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+.nav_item:hover{
+    background-color: #FFB800;
+    color: black;
+}
+
 .logo{
     height: 80px;
     display: flex;
