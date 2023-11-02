@@ -31,7 +31,6 @@ header{
     align-items: center;
     justify-content: space-between;
 }
-
 .logo{
     width:175px;
 }
@@ -113,7 +112,7 @@ header{
 }
 
 .region{
-    font-family: 'Playpen Sans', cursive;
+    font-family:gensenrounded ;
     font-weight: 700px;
     color: orange;
 }
@@ -126,7 +125,7 @@ header{
 
 .intro{
     color: white;
-    font-family: 'Playpen Sans', cursive;
+    font-family:gensenrounded ;
     font-weight: 400px;
 }
 
@@ -152,31 +151,51 @@ header{
 }
 
 .box1{
+    padding-left: 15px;
+    padding-right: 15px;
     margin-top: 40px;
     display: flex;
+    align-items: center;
     background-color: white;
+    height: 50px;
+    font-family:gensenrounded ;
+    font-weight: 700px;
+    font-size: 16px;
 }
 #monster{
+    padding-left: 15px;
+    padding-right: 15px;
     margin-left: 6px;
     color: black;
-    font-family: 'Playpen Sans', cursive;
-    font-weight: 700px;
+    font-family: gensenrounded ;
+    font-weight: 400;
     display: flex;
     align-items: center;
+    font-size: 18px;
 }
 
 .box2{
+    padding-left: 15px;
+    padding-right: 15px;
     margin-top: 25px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: white;
+    height: 50px;
+    font-family:gensenrounded ;
+    font-size: 16px;
 }
 #place{
+    padding-left: 15px;
+    padding-right: 15px;
     margin-left: 6px;
     color: black;
-    font-family: 'Playpen Sans', cursive;
-    font-weight: 700px;
+    font-family:gensenrounded ;
+    font-weight: 400px;
     display: flex;
     align-items: center;
+    font-size: 18px;
 }
 
 .button1{
@@ -186,13 +205,14 @@ header{
     height: 45px;
     background-color: purple;
     display: flex;
+    font-family:gensenrounded ;
 }
 .photo{
     width: 100px;
     height: 45px;
     margin: 0;
     color: white;
-    font-family: 'Playpen Sans', cursive;
+    font-family:gensenrounded ;
     font-weight: 700px;
     display: flex;
     justify-content: center;
@@ -204,17 +224,25 @@ header{
 }
 
 .box3{
+    padding-left: 15px;
+    padding-right: 15px;
     margin-top: 11px;
     display: flex;
+    flex-direction: column;
     background-color: white;
     height: 200px;
+    font-family:gensenrounded ;
+    font-size: 16px;
 }
 #response{
+    padding-left: 15px;
+    padding-right: 15px;
     margin-left: 6px;
     color: black;
-    font-family: 'Playpen Sans', cursive;
-    font-weight: 700px;
+    font-family:gensenrounded ;
+    font-weight: 400px;
     display: flex;
+    font-size: 16px;
 }
 
 .button2{
@@ -222,6 +250,7 @@ header{
     width: 80px;
     height: 40px;
     background-color: purple;
+    font-family:gensenrounded ;
 }
 .submit{
     width: 80px;
@@ -229,7 +258,7 @@ header{
     margin: 0;
     background-color: purple;
     color: white;
-    font-family: 'Playpen Sans', cursive;
+    font-family:gensenrounded ;
     font-weight: 700px;
     display: flex;
     justify-content: center;
@@ -244,7 +273,28 @@ header{
     color: white;
 }
 
+.qs{
+    font-family:gensenrounded ;
+}
+
+.q1{
+    font-family:gensenrounded ;
+}
+
+.q2{
+    font-family:gensenrounded ;
+}
+
+.q3{
+    font-family:gensenrounded ;
+}
+
+.q4{
+    font-family:gensenrounded ;
+}
+
 .sidebar{
+    font-family:gensenrounded ;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -259,7 +309,7 @@ header{
 }
 .word1{
     color: orange;
-    font-family: 'Playpen Sans', cursive;
+    font-family:gensenrounded ;
     font-weight: 700px;
 }
 
@@ -270,7 +320,7 @@ header{
 }
 .word2{
     color: white;
-    font-family: 'Playpen Sans', cursive;
+    font-family:gensenrounded ;
     font-weight: 400;
 }
 
