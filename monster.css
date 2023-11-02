@@ -139,7 +139,7 @@ header{
 .pics1{
     display: flex;
     justify-content: space-between;
-    color: white;
+    /*color: white;*/
 }
 
 .zone1{
