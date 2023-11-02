@@ -233,6 +233,7 @@ header{
     display: flex;
     justify-content: space-between;
     /*color: white;*/
+    margin-top: 30px;
 }
 
 .zone7{
@@ -260,6 +261,7 @@ header{
     display: flex;
     justify-content: space-between;
     /*color: white;*/
+    margin-top: 30px;
 }
 
 .zone10{
