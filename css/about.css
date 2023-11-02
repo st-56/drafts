@@ -180,6 +180,7 @@ header{
     color: white;
     font-family:gensenrounded ;
     font-size: 18px;
+    text-align:center;
 }
 .guide_contain{
     width:220px;
