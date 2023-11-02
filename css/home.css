@@ -27,8 +27,9 @@ header{
     width:150px;
 }
 .nav{
-    margin-top: 25px;
+    margin-top: 30px;
     display: flex;
+    flex-wrap: wrap;
 }
 .nav_item{ 
     font-size: 20px;
@@ -48,7 +49,7 @@ main{
     margin-bottom: 40px;
 }
 .title{
-    font-family: gensenrounded;
+    font-family: jf;
     font-size: 20px;
     width: 100px;
     color: #FFB800;
@@ -88,6 +89,7 @@ hr{
 .monsters{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .monsters_item{
     width: 180px;
@@ -96,6 +98,7 @@ hr{
 }
 .monspic{
     width: 180px;
+    border-radius: 10px;
 }
 .monsname{
     text-align: center;
@@ -103,6 +106,8 @@ hr{
 }
 .dots{
     align-self:self-end;
+    text-decoration: none;
+    color: white;
 }
 .more{
     text-align: center;
@@ -120,6 +125,9 @@ hr{
     font-size: 20px;
     text-decoration: none;
 }
+.doudledown{
+    width:25px;
+}
 /*footer*/
 footer{
     background-color: #FFB800;
@@ -131,7 +139,8 @@ footer{
 
 }
 .icon{
-    margin-right: 20px;
+    width: 37px;
+    margin-right: 15px;
     margin-bottom: 5px;
 }
 .mail{
