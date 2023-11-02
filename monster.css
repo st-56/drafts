@@ -11,13 +11,6 @@ html{
     background-color: black;
 }
 
-/*hr{
-    border-color: #FFB800;
-    width: 50%;
-    margin-top: 55px;
-    margin-bottom: 55px;
-}*/
-/*header*/
 header{
     width: 90%;
     padding-top: 24px;
@@ -26,7 +19,6 @@ header{
     margin-right: auto;
     margin-top: 30px;
     margin-bottom: 30px;
-    /*border-bottom:2px solid #FFB800;*/
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -50,7 +42,7 @@ header{
     background-color: #FFB800;
     color: black;
 }
-/*main*/
+
 .title{
     display: inline-block;
     font-family: gensenrounded;
