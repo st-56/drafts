@@ -41,21 +41,17 @@ header{
     font-size: 20px;
     font-family: gensenrounded;
     margin-right: 60px;
+    border-radius: 1em;
     list-style:none;
     color: #FFB800;
     padding: 5px 10px;
     text-decoration: none;
+    background-color: black;
+    transition: background-color 0.25s ease-in-out;
 }
 .nav_item:hover{
     background-color: #FFB800;
     color: black;
-}
-
-.logo{
-    height: 80px;
-    display: flex;
-    align-items: center;
-    padding-left: 30px;
 }
 
 .name{
