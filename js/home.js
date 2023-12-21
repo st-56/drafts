@@ -32,5 +32,4 @@ $(document).ready(function(){
                 slideimg.eq(nextimg).fadeIn(2000);
                 currentindex=nextimg;
             }*/
-            $('.monsters_item img').hover(function(){$(this).attr('src','img/emo.gif');});
 });
