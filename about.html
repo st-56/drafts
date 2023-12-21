@@ -3,30 +3,30 @@
     <head>
         <meta charset="utf-8">
         <title>Moster Pursuit</title>
+        <link rel="icon" href="/img/mainlogoblack.ico" type="image/x-icon"/>
         <link rel="stylesheet" href="css/about.css">
         <link rel="stylesheet" href="css/normalize.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700;900&family=Space+Mono&display=swap" rel="stylesheet">
+        <script src="js/jquery-3.7.1.js"></script>
+        <script src="js/about.js"></script>
     </head>
     <body>
          <!--header-->
          <header>
             <img src="img/logo.png" alt="logo" class="logo">
             <ul class="nav">
-                <li><a href="home.html" class="nav_item">首頁</a></li>
-                <li><a href="about.html" class="nav_item">關於</a></li>
-                <li><a href="monster.html" class="nav_item">怪獸檔案</a></li>
-                <li><a href="mail.html" class="nav_item">通報</a></li>
+                <li class="nav_li"><a href="home.html" class="nav_item">首頁</a></li>
+                <li class="nav_li"><a href="about.html" class="nav_item">關於</a></li>
+                <li class="nav_li"><a href="monster.html" class="nav_item">怪獸檔案</a></li>
+                <li class="nav_li"><a href="report.html" class="nav_item">通報</a></li>
             </ul>
         </header>
         <!--main-->
         <main>
             <div class="intro">
                 <p class="title">組織簡介</p>
-                <div class="intro_items">
-                    <img src="./img/mainlogo.png" alt="logo" class="mainlogo">
-                    <p class="intro_item">
+                <div class="intro_container">
+                    <img src="img/mainlogo.png" alt="logo" class="mainlogo">
+                    <p class="intro_content">
                     我們是一個致力於緝捕怪獸的機構，目的是捕獲怪獸們，減少他們對人類世界所造成的危害。
                     自古以人，人類就不斷受到怪獸的侵擾，然而能看的見怪獸們的人佔少數，對大多數人而言，怪
                     獸是”不存在”的。因此，為了避免造成看不見的正常人恐慌，組織創始人集結了一群志同道合的
@@ -36,30 +36,23 @@
                 </div>
             </div>
             <hr>
-            
-                <div class="title_compose"><p class="title">組織構成</p></div>
-                <div class="compose">
+            <div class="title_compose"><p class="title">組織構成</p></div>
+            <div class="compose">
                 <div class="investigation">
                     <p>調查組</p>
-                    <div class="investigation_item">
-                        <img src="./img/arrest.jpg" alt="magnifyingglasses" class="compose_pic">
+                    <div class="investigation_container">
+                        <img src="img/investigate.jpg" alt="investigate" class="compose_pic">
                         <p>
-                            專門進行目擊消息的搜查、怪獸足跡的追蹤、分析
-                            方面的怪獸資訊、調查新物種、研究怪獸檔案資料。
-                            以提供緝捕組有用的線索，提升怪獸捕獲的成功率。
-                            也負責聯繫並邀請”看的見"人
+                            專門進行目擊消息的搜查、怪獸足跡的追蹤、分析方面的怪獸資訊、調查新物種、研究怪獸檔案資料。以提供緝捕組有用的線索，提升怪獸捕獲的成功率。也負責聯繫並邀請"看的見"人
                         </p>
                     </div>
                 </div>
                 <div class="arrest">
                     <p>緝捕組</p>
                     <div class="arrest_item">
-                        <img src="./img/investigate.JPG"alt="handcuffs" class="compose_pic">
+                        <img src="img/arrest.jpg"alt="arrest" class="compose_pic">
                         <p>
-                            負責怪獸的緝捕的作業，由於有一定風險，為了成員
-                            的人身安全，且行動必須秘密進行，緝捕組成員皆經
-                            過專業訓練，偽裝、實戰、捕獲技術.......等能力都有
-                            所要求。
+                            負責怪獸的緝捕的作業，由於有一定風險，為了成員的人身安全，且行動必須秘密進行，緝捕組成員皆經過專業訓練，偽裝、實戰、捕獲技術.......等能力都有所要求。
                         </p>
                     </div>
                 </div>
@@ -84,22 +77,22 @@
                 <p class="title">網站指南</p>
                 <div class="guiderow">
                     <p class="youcan">你可以在這裡</p>
-                    <div class="guide_items">
-                        <div class="guide_contain">
-                            <img src="img/IMG_0114.png" class="guide_pic">
-                            <p class="guide_item">了解最新怪獸出沒消息<br/>避免受到怪獸影響</p>
+                    <div class="guide_container">
+                        <div class="guide_item">
+                            <img src="img/hand.jpg" class="guide_pic">
+                            <p class="guide_text">了解最新怪獸出沒消息<br/>避免受到怪獸影響</p>
                         </div>
-                        <div class="guide_contain">
-                            <img src="img/IMG_0113.png" class="guide_pic">
-                            <p class="guide_item">認識各種不同怪獸<br/>成為怪獸知識通</p>
+                        <div class="guide_item">
+                            <img src="img/hand.jpg" class="guide_pic">
+                            <p class="guide_text">認識各種不同怪獸<br/>成為怪獸知識通</p>
                         </div>
-                        <div class="guide_contain">
-                            <img src="./img/IMG_0112.png" class="guide_pic">
-                            <p class="guide_item">分享你的怪獸發現<br/>幫助怪獸追緝的工作</p>
+                        <div class="guide_item">
+                            <img src="img/hand.jpg" class="guide_pic">
+                            <p class="guide_text">分享你的怪獸發現<br/>幫助怪獸追緝的工作</p>
                         </div>
-                        <div class="guide_contain">
-                            <img src="./img/IMG_0111.png" class="guide_pic">
-                            <p class="guide_item">成為怪獸追緝局的合作夥伴<br/>或者加入我們 !</p>
+                        <div class="guide_item">
+                            <img src="img/hand.jpg" class="guide_pic">
+                            <p class="guide_text">成為怪獸追緝局的合作夥伴<br/>或者加入我們 !</p>
                         </div>
                     </div>
                 </div>
@@ -108,10 +101,10 @@
         <!--footer-->
         <footer>
             <div class="contact">
-                <a href="https://www.facebook.com/"><img src="img/fb.png" alt="fb" class="icon"></a>
-                <a href="https://www.instagram.com/"><img src="img/ig.png" alt="ig" class="icon"></a>
-                <a href="https://twitter.com/home"><img src="img/x.png" alt="x" class="icon"></a>
-                <p class="mail">mail:monsterpursuit@gmail.com</p>
+                <a href="https://www.facebook.com/"><img src="img/fb.svg" alt="fb" class="contact_icon"></a>
+                <a href="https://www.instagram.com/"><img src="img/ig.svg" alt="ig" class="contact_icon"></a>
+                <a href="https://twitter.com/home"><img src="img/x.svg" alt="x" class="contact_icon"></a>
+                <p class="mail">mail : monsterpursuit@gmail.com</p>
             </div>
             <p class="cr">copyright &copy; 2023 monsterpursuit</p>
         </footer>
