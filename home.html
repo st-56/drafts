@@ -3,37 +3,40 @@
     <head>
         <meta charset="utf-8">
         <title>Moster Pursuit</title>
+        <link rel="icon" href="/img/mainlogoblack.ico" type="image/x-icon"/>
         <link rel="stylesheet" href="css/home.css">
         <link rel="stylesheet" href="css/normalize.css">
-        
+        <script src="js/jquery-3.7.1.js"></script>
+        <script src="js/test.js"></script>
     <body>
         <!--header-->
         <header>
             <img src="img/logo.png" alt="logo" class="logo">
             <ul class="nav">
-                <li><a href="home.html" class="nav_item">首頁</a></li>
-                <li><a href="about.html" class="nav_item">關於</a></li>
-                <li><a href="monster.html" class="nav_item">怪獸檔案</a></li>
-                <li><a href="mail.html" class="nav_item">通報</a></li>
+                <li class="nav_li"><a href="home.html" class="nav_item">首頁</a></li>
+                <li class="nav_li"><a href="about.html" class="nav_item">關於</a></li>
+                <li class="nav_li"><a href="monster.html" class="nav_item">怪獸檔案</a></li>
+                <li class="nav_li"><a href="report.html" class="nav_item">通報</a></li>
             </ul>
         </header>
         <!--main-->
         <main>
             <div class="news">
                 <p class="title">最新消息</p>
-                <div class="image-container">
-                    <div class="image-slider">
-                      <div class="image">
-                        <img src="img/A745CA50-3FD5-4FDB-AAFB-2E3E2BCD6133.png" alt="Image 1">
-                      </div>
-                      <div class="image">
-                        <img src="img/64D81E55-56DB-4A61-A219-A26E0C27A4E1.png" alt="Image 2">
-                      </div>
-                      <div class="image">
-                        <img src="img/IMG_0108.jpeg" alt="Image 3">
-                      </div>
+                <div class="carouselcontainer">
+                    <img src="img/left.svg" class="left">
+                    <div class="carousel">
+                        <img src="img/recruit.jpg" alt="Image 1">
+                        <img src="img/witness.jpg" alt="Image 2">
+                        <img src="img/attention.jpg" alt="Image 3">
                     </div>
-                  </div>
+                    <img src="img/right.svg" class="right">
+                </div>
+                <div class="dot">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
             </div>
             <hr>
             <div class="preview">
@@ -42,20 +45,20 @@
                     <p>近期出沒</p>
                     <div class="monsters">
                          <div class="monsters_item">
-                            <img src="img/dirty.jpg" alt="monster" class="monspic">
-                            <p class="monsname">邋遢怪</p>
+                            <img src="img/dirty.jpg" alt="dirty" class="monster_img">
+                            <p class="monster_name">邋遢怪</p>
                          </div>
                         <div class="monsters_item">
-                             <img src="img/emo.jpg" alt="monster" class="monspic">
-                             <p class="monsname">憂鬱怪</p>
+                             <img src="img/emo.jpg" alt="emo" class="monster_img">
+                             <p class="monster_name">憂鬱怪</p>
                         </div>
                          <div class="monsters_item">
-                              <img src="img/sleep1.jpg" alt="monster" class="monspic">
-                               <p class="monsname">躺平怪</p>
+                              <img src="img/lie.jpg" alt="lie" class="monster_img">
+                               <p class="monster_name">躺平怪</p>
                         </div>
                         <div class="monsters_item">
-                            <img src="img/brain.jpg" alt="monster" class="monspic">
-                             <p class="monsname">盜腦怪</p>
+                            <img src="img/brain.jpg" alt="brain" class="monster_img">
+                             <p class="monster_name">盜腦怪</p>
                         </div>
                         <a href="monster.html" class="dots"><p >. . .</p></a>
                     </div>
@@ -64,20 +67,20 @@
                     <p>高額懸賞</p>
                     <div class="monsters">
                         <div class="monsters_item">
-                            <img src="img/hide.jpg" alt="monster" class="monspic">
-                            <p class="monsname">偷窺怪</p>
+                            <img src="img/hide.jpg" alt="hide" class="monster_img">
+                            <p class="monster_name">偷窺怪</p>
                         </div>
                         <div class="monsters_item">
-                            <img src="img/umbrella1.jpg" alt="monster" class="monspic">
-                            <p class="monsname">偷傘怪</p>
+                            <img src="img/umbrella.jpg" alt="umbrella" class="monster_img">
+                            <p class="monster_name">偷傘怪</p>
                         </div>
                         <div class="monsters_item">
-                            <img src="img/emo.jpg" alt="monster" class="monspic">
-                            <p class="monsname">憂鬱怪</p>
+                            <img src="img/emo.jpg" alt="emo" class="monster_img">
+                            <p class="monster_name">憂鬱怪</p>
                         </div>
                         <div class="monsters_item">
-                            <img src="img/eat1.jpg" alt="monster" class="monspic">
-                            <p class="monsname">偷吃怪</p>
+                            <img src="img/eat.jpg" alt="eat" class="monster_img">
+                            <p class="monster_name">偷吃怪</p>
                         </div>
                         <a href="monster.html" class="dots"><p >. . .</p></a>
                     </div>
@@ -86,17 +89,17 @@
                     <p class="knowmore">想了解更多怪獸?<br/>進入</p>
                     <img src="img/doubledown_.svg" alt="doubledown" class="doubledown">
                     <br/>
-                    <a class="monsterdoc" href="monster.html">怪獸檔案</a>
+                    <a class="monster_doc" href="monster.html">怪獸檔案</a>
                 </div>
             </div>
         </main>
         <!--footer-->
         <footer>
             <div class="contact">
-                <a href="https://www.facebook.com/"><img src="img/fb.png" alt="fb" class="icon"></a>
-                <a href="https://www.instagram.com/"><img src="img/ig.png" alt="ig" class="icon"></a>
-                <a href="https://twitter.com/home"><img src="img/x.png" alt="x" class="icon"></a>
-                <p class="mail">mail:monsterpursuit@gmail.com</p>
+                <a href="https://www.facebook.com/"><img src="img/fb.svg" alt="fb" class="contact_icon"></a>
+                <a href="https://www.instagram.com/"><img src="img/ig.svg" alt="ig" class="contact_icon"></a>
+                <a href="https://twitter.com/home"><img src="img/x.svg" alt="x" class="contact_icon"></a>
+                <p class="mail">mail : monsterpursuit@gmail.com</p>
             </div>
             <p class="cr">copyright &copy; 2023 monsterpursuit</p>
         </footer>
